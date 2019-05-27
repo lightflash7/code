@@ -6,8 +6,12 @@
 ## 书中规则
 ![1](./src/1.png)
 
+## 笔记规则
+
+tip表示突然插入的知识
 
 ## 源码网站
+
 ![Snipaste_2019-05-24_12-55-20](./src/Snipaste_2019-05-24_12-55-20.png)
 
 
@@ -69,7 +73,33 @@
 
 [语言规范](https://docs.oracle.com/javase/specs/)
 
-### tip
+#### tip 必须有一个main方法
 
 ![Snipaste_2019-05-27_13-22-02](./src/Snipaste_2019-05-27_13-22-02.png)
+
+#### tip2 java类与C++类
+
+![Snipaste_2019-05-27_22-43-57](./src/Snipaste_2019-05-27_22-43-57.png)
+
+#### tip3 语句结构
+
+![Snipaste_2019-05-27_22-49-33](./src/Snipaste_2019-05-27_22-49-33.png)
+
+#### tip4 System.out.println(" ")
+
+![Snipaste_2019-05-27_22-51-39](./src/Snipaste_2019-05-27_22-51-39.png)
+
+### 注释
+
+![Snipaste_2019-05-27_22-55-02](./src/Snipaste_2019-05-27_22-55-02.png)
+
+![Snipaste_2019-05-27_22-55-12](./src/Snipaste_2019-05-27_22-55-12.png)
+
+### 数据类型
+
+![Snipaste_2019-05-27_22-58-50](./src/Snipaste_2019-05-27_22-58-50.png)
+
+#### 整形
+
+![Snipaste_2019-05-27_23-00-07](./src/Snipaste_2019-05-27_23-00-07.png)
 
