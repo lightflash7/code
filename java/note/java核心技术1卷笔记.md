@@ -69,7 +69,7 @@
 
 [语言规范](https://docs.oracle.com/javase/specs/)
 
-## 新手注意
+### tip
 
 ![Snipaste_2019-05-27_13-22-02](./src/Snipaste_2019-05-27_13-22-02.png)
 
