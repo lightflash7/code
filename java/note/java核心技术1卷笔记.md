@@ -125,39 +125,39 @@ tip表示突然插入的知识
 
 #### 浮点型
 
-![Snipaste_2019-05-28_10-53-35](src\Snipaste_2019-05-28_10-53-35.png)
+![Snipaste_2019-05-28_10-53-35](./src/Snipaste_2019-05-28_10-53-35.png)
 
 ##### tip1 后缀
 
-![Snipaste_2019-05-28_10-54-52](src\Snipaste_2019-05-28_10-54-52.png)
+![Snipaste_2019-05-28_10-54-52](./src/Snipaste_2019-05-28_10-54-52.png)
 
 ##### tip2 十六进制的p
 
-![Snipaste_2019-05-28_10-57-14](src\Snipaste_2019-05-28_10-57-14.png)
+![Snipaste_2019-05-28_10-57-14](./src/Snipaste_2019-05-28_10-57-14.png)
 
 ##### tip3 IEEE754规范和NaN的判断
 
-![Snipaste_2019-05-28_10-59-10](src\Snipaste_2019-05-28_10-59-10.png)
+![Snipaste_2019-05-28_10-59-10](./src/Snipaste_2019-05-28_10-59-10.png)
 
 ##### tip4 2.0-1.1≠0.9
 
-![Snipaste_2019-05-28_11-02-08](src\Snipaste_2019-05-28_11-02-08.png)
+![Snipaste_2019-05-28_11-02-08](./src/Snipaste_2019-05-28_11-02-08.png)
 
 #### char型
 
-![Snipaste_2019-05-28_12-21-50](src\Snipaste_2019-05-28_12-21-50.png)
+![Snipaste_2019-05-28_12-21-50](./src/Snipaste_2019-05-28_12-21-50.png)
 
 ##### tip1 特殊字符转义序列
 
-![Snipaste_2019-05-28_12-22-32](src\Snipaste_2019-05-28_12-22-32.png)
+![Snipaste_2019-05-28_12-22-32](./src/Snipaste_2019-05-28_12-22-32.png)
 
 ##### 注意 unicode转义会在解析代码前执行
 
-![Snipaste_2019-05-28_12-24-59](src\Snipaste_2019-05-28_12-24-59.png)
+![Snipaste_2019-05-28_12-24-59](./src/Snipaste_2019-05-28_12-24-59.png)
 
 ##### tip2 不建议使用char除非要处理UTF-16
 
-![Snipaste_2019-05-28_12-28-27](src\Snipaste_2019-05-28_12-28-27.png)
+![Snipaste_2019-05-28_12-28-27](./src/Snipaste_2019-05-28_12-28-27.png)
 
 ##### tip3 UNICODE编码
 
@@ -165,41 +165,41 @@ tip表示突然插入的知识
 
 #### boolean类型（布尔类型）
 
-![Snipaste_2019-05-28_12-32-56](src\Snipaste_2019-05-28_12-32-56.png)
+![Snipaste_2019-05-28_12-32-56](./src/Snipaste_2019-05-28_12-32-56.png)
 
 ##### tip1 与C++区别
 
-![Snipaste_2019-05-28_12-33-38](src\Snipaste_2019-05-28_12-33-38.png)
+![Snipaste_2019-05-28_12-33-38](./src/Snipaste_2019-05-28_12-33-38.png)
 
 ### 变量
 
-![Snipaste_2019-05-28_12-36-56](src\Snipaste_2019-05-28_12-36-56.png)
+![Snipaste_2019-05-28_12-36-56](./src/Snipaste_2019-05-28_12-36-56.png)
 
 #### 命名
 
-![Snipaste_2019-05-28_12-38-43](src\Snipaste_2019-05-28_12-38-43.png)
+![Snipaste_2019-05-28_12-38-43](./src/Snipaste_2019-05-28_12-38-43.png)
 
 ##### tip1 不提倡的做法
 
-![Snipaste_2019-05-28_12-37-16](src\Snipaste_2019-05-28_12-37-16.png)
+![Snipaste_2019-05-28_12-37-16](./src/Snipaste_2019-05-28_12-37-16.png)
 
 #### 初始化
 
-![Snipaste_2019-05-28_12-43-45](src\Snipaste_2019-05-28_12-43-45.png)
+![Snipaste_2019-05-28_12-43-45](./src/Snipaste_2019-05-28_12-43-45.png)
 
 ##### tip1 与C++区别，不区分变量声明定义
 
-![Snipaste_2019-05-28_12-44-29](src\Snipaste_2019-05-28_12-44-29.png)
+![Snipaste_2019-05-28_12-44-29](./src/Snipaste_2019-05-28_12-44-29.png)
 
 ### 常量
 
-![Snipaste_2019-05-28_12-47-31](src\Snipaste_2019-05-28_12-47-31.png)
+![Snipaste_2019-05-28_12-47-31](./src/Snipaste_2019-05-28_12-47-31.png)
 
 ##### tip1 类常量
 
-![Snipaste_2019-05-28_12-49-06](src\Snipaste_2019-05-28_12-49-06.png)
+![Snipaste_2019-05-28_12-49-06](./src/Snipaste_2019-05-28_12-49-06.png)
 
 ##### tip2 与c++的区别
 
-![Snipaste_2019-05-28_12-49-15](src\Snipaste_2019-05-28_12-49-15.png)
+![Snipaste_2019-05-28_12-49-15](./src/Snipaste_2019-05-28_12-49-15.png)
 
