@@ -203,3 +203,163 @@ tip表示突然插入的知识
 
 ![Snipaste_2019-05-28_12-49-15](./src/Snipaste_2019-05-28_12-49-15.png)
 
+### 运算符
+
+#### 基本运算符
+
+![Snipaste_2019-05-29_13-03-15](F:\code\java\note\src\Snipaste_2019-05-29_13-03-15.png)
+
+**注意操作数都是整数，除法出来是整数，例如1/3=0**
+
+##### tip1 精确浮点strictfp
+
+基本不用,[资料](https://blog.csdn.net/redv/article/details/326444)
+
+
+#### 数学函数
+
+
+|   数学函数    |   作用   |
+| :-----------: | :------: |
+| Math.sqrt(x)  |  开平方  |
+| Math.pow(x,a) | x的a次幂 |
+
+以及
+
+![Snipaste_2019-05-29_23-03-13](F:\code\java\note\src\Snipaste_2019-05-29_23-03-13.png)
+
+##### tip1 偷懒不写Math的办法
+
+![Snipaste_2019-05-29_23-34-50](F:\code\java\note\src\Snipaste_2019-05-29_23-34-50.png)
+
+##### tip2 运算速度或者可预测结果
+
+![Snipaste_2019-05-29_23-37-48](F:\code\java\note\src\Snipaste_2019-05-29_23-37-48.png)
+
+#### 类型转换
+
+##### 普通转换
+
+1. 
+
+```java
+int n = 123456789;
+float f = n; // f is 1.23456792E8
+```
+
+2. 自动转换
+
+![Snipaste_2019-05-31_12-52-21](F:\code\java\note\src\Snipaste_2019-05-31_12-52-21.png)
+
+##### tip1 类型之间的合法转换
+
+![Snipaste_2019-05-31_12-54-11](F:\code\java\note\src\Snipaste_2019-05-31_12-54-11.png)
+
+> 注:
+>
+> 1. 以上转化均为java合法转换
+> 2. 实线箭头表示无信息丢失转换,虚线箭头表示转换可能有精度损失
+
+##### 强制类型转换 
+
+![Snipaste_2019-05-31_12-58-46](F:\code\java\note\src\Snipaste_2019-05-31_12-58-46.png)
+
+##### tip2 大到小会截断
+
+![Snipaste_2019-05-31_13-04-58](F:\code\java\note\src\Snipaste_2019-05-31_13-04-58.png)
+
+##### tip3 不要将boolean类型拿来转换(可以用判断句转换)
+
+![Snipaste_2019-05-31_13-05-52](F:\code\java\note\src\Snipaste_2019-05-31_13-05-52.png)
+
+#### 结合运算符和赋值符
+
+![Snipaste_2019-05-31_13-08-21](F:\code\java\note\src\Snipaste_2019-05-31_13-08-21.png)
+
+##### 注意 运算类型与左侧操作数类型不同,最终会强制类型转换成左侧操作数类型
+
+![Snipaste_2019-05-31_13-15-24](F:\code\java\note\src\Snipaste_2019-05-31_13-15-24.png)
+
+#### 自增运算符与自减运算符
+
+![Snipaste_2019-05-31_13-18-08](F:\code\java\note\src\Snipaste_2019-05-31_13-18-08.png)
+
+![Snipaste_2019-05-31_13-19-31](F:\code\java\note\src\Snipaste_2019-05-31_13-19-31.png)
+
+#### 关系和boolean运算符
+
+|   关系   | 符号 |
+| :------: | :--: |
+|   小于   |  <   |
+|   大于   |  >   |
+|   等于   |  ==  |
+|  不等于  |  !=  |
+| 小于等于 |  <=  |
+| 大于等于 | \>=  |
+
+| boolean运算符 | 符号 |
+| :-----------: | :--: |
+|      与       |  &&  |
+|      或       | \|\| |
+|      非       |  !   |
+
+##### tip1 如果第一表达式就能确定表达式值则停止计算
+
+![Snipaste_2019-05-31_13-27-29](F:\code\java\note\src\Snipaste_2019-05-31_13-27-29.png)
+
+##### tip2 三元操作符? :
+
+![Snipaste_2019-05-31_13-28-20](F:\code\java\note\src\Snipaste_2019-05-31_13-28-20.png)
+
+#### 位运算符
+
+![Snipaste_2019-06-01_11-08-22](F:\code\java\note\src\Snipaste_2019-06-01_11-08-22.png)
+
+![Snipaste_2019-06-01_11-08-32](F:\code\java\note\src\Snipaste_2019-06-01_11-08-32.png)
+
+![Snipaste_2019-06-01_11-10-42](F:\code\java\note\src\Snipaste_2019-06-01_11-10-42.png)
+
+##### tip1 对boolean所有都会计算
+
+![Snipaste_2019-06-01_11-12-05](F:\code\java\note\src\Snipaste_2019-06-01_11-12-05.png)
+
+##### 注意 移位操作符右操作数会先按左操作数的类型取模（取余数）
+
+![Snipaste_2019-06-01_11-18-04](F:\code\java\note\src\Snipaste_2019-06-01_11-18-04.png)
+
+> **这里35%32=3所以1<<35=1<<3,而8说的是最终值**
+
+##### tip3 java位运算和c++区别
+
+![Snipaste_2019-06-01_11-23-20](F:\code\java\note\src\Snipaste_2019-06-01_11-23-20.png)
+
+#### 优先级
+
+![Snipaste_2019-06-01_11-25-25](F:\code\java\note\src\Snipaste_2019-06-01_11-25-25.png)
+
+> 加括号（）可以改变按优先级运算的关系
+
+##### tip1 右结合运算符（表中最后一行）
+
+![Snipaste_2019-06-01_11-27-34](F:\code\java\note\src\Snipaste_2019-06-01_11-27-34.png)
+
+##### tip2  和c++区别
+
+![Snipaste_2019-06-01_11-28-18](F:\code\java\note\src\Snipaste_2019-06-01_11-28-18.png)
+
+![Snipaste_2019-06-01_11-30-30](F:\code\java\note\src\Snipaste_2019-06-01_11-30-30.png)
+
+### 字符串
+
+#### 子串
+
+![Snipaste_2019-06-01_11-35-06](F:\code\java\note\src\Snipaste_2019-06-01_11-35-06.png)
+
+#### 拼接
+
+1. 用+直接拼接
+2. 将一个字符串与一个非字符串的值进行拼接时，后者被转换成字符串（任何一个 Java 对象都可以转换成字符串）。 
+3. ![Snipaste_2019-06-01_11-39-55](F:\code\java\note\src\Snipaste_2019-06-01_11-39-55.png)
+
+#### 不可变字符串
+
