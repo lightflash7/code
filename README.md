@@ -8,6 +8,7 @@
 
 ## 编程语言
 1. java
+2. python
 
 ## 编程工具
 vim
